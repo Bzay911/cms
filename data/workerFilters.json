@@ -1,0 +1,35 @@
+{
+    "roles": [
+      "Manager",
+      "Engineer",
+      "Technician",
+      "HR",
+      "IT",
+      "Operations"
+    ],
+    "genders": [
+      "Male",
+      "Female",
+      "Other"
+    ],
+    "departments": [
+      "HR",
+      "IT",
+      "Operations",
+      "Finance",
+      "Engineering",
+      "Data Science"
+    ],
+    "employmentTypes": [
+      "Full-time",
+      "Part-time",
+      "Contract",
+      "Internship"
+    ],
+    "documentTypes": [
+      "Passport",
+      "ID Card",
+      "Driver's License",
+      "Health Insurance"
+    ]
+  }
