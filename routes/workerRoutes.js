@@ -9,7 +9,7 @@ router.get("/expiring",authMiddleware,getWorkersWithExpiringDocuments)
 
 router.get('/document-statistics',authMiddleware, getDocumentStatistics);
 router.get('/searchFilters', authMiddleware, getfilters);
-router.get('/',authMiddleware, getWorkers);
+router.get('/', getWorkers);
 router.get("/:id", authMiddleware, getWorkerById);
 router.put("/:id", authMiddleware, updateWorker);
 
