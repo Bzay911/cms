@@ -16,7 +16,7 @@ const authMiddleware = (req, res, next) => {
 
   try {
     // Verify the token
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, 'your_jwt_secret_key');
     req.admin = decoded.adminId;
     next(); // Proceed to the next middleware or route handler
   } catch (error) {

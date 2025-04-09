@@ -10,8 +10,8 @@ const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 587,
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
+    user: 'utsavkhatri7@gmail.com',
+    pass: 'fulrmlwndomjwtkl',
   },
 });
 
@@ -43,7 +43,7 @@ const checkExpiringDocuments = async () => {
 
           // Email options
           const mailOptions = {
-            from: process.env.EMAIL_USER,
+            from: 'utsavkhatri7@gmail.com',
             to: [worker.email, adminEmail].filter(Boolean).join(", "),
             subject: `Document Expiry Alert for ${worker.name}`,
             text: `

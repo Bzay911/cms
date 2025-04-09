@@ -3,14 +3,14 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
+    user: 'utsavkhatri7@gmail.com',
+    pass: 'fulrmlwndomjwtkl',
   },
 });
 
 const sendExpiryNotification = (worker, document, emailRecipients) => {
   const mailOptions = {
-    from: process.env.EMAIL_USER,
+    from: 'utsavkhatri7@gmail.com',
     to: emailRecipients.join(", "),
     subject: "Document Expiry Alert",
     text: `Dear Manager/System Administrator,
