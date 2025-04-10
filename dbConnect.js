@@ -9,7 +9,7 @@ async function dbConnect() {
   // use mongoose to connect this app to our database on mongoDB using the DB_URL (connection string)
   mongoose
     .connect(
-        'mongodb+srv://sumanlaravel400:sumanlaravel400@larablogs.vho12.mongodb.net/',
+        'mongodb+srv://12510:uyHXLoPfSgzwdFle@workermanagementcms.xqdff47.mongodb.net/',
       {
         //   these are options to ensure that the connection is done properly
         useNewUrlParser: true,
